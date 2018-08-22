@@ -65,14 +65,32 @@ ul {
 .block-title h2 { color: #000; }
 .block-title .meta { font-size: 16px; color: #999; }
 .block-title .meta a { font-size: 16px; color: #333; }
-.block-setup { background-color: #348fd4; }
-.block-setup h2 { color: #06406c; }
-.block-setup h2 a { background: none; padding: 0; font-size: normal; }
-.block-setup a { color: #FFF; font-size: 40px; font-weight: normal;font-style: normal; background-color: #06406c; padding: 10px 15px; border-radius: 10px; text-decoration: none; }
-.block-setup a:hover { text-decoration: underline; }
 
-.block-setup2 { background-color: #54d434; }
-.block-setup2 h2 { color: #FFF; }
-.block-setup2 h2 a { background: none; padding: 0; font-size: normal; }
-.block-setup2 a { color: #FFF; font-size: 40px; font-weight: normal;font-style: normal; background-color: #06406c; padding: 10px 15px; border-radius: 10px; text-decoration: none; }
-.block-setup2 a:hover { text-decoration: underline; }
+.block-blueslide { background-color: #348fd4; }
+.block-blueslide h2 { color: #06406c; }
+.block-blueslide h2 a { background: none; padding: 0; font-size: normal; }
+.block-blueslide a { color: #FFF; font-size: 40px; font-weight: normal;font-style: normal; background-color: #06406c; padding: 10px 15px; border-radius: 10px; text-decoration: none; }
+.block-blueslide a:hover { text-decoration: underline; }
+
+.block-greenslide { background-color: #54d434; }
+.block-greenslide h2 { color: #FFF; }
+.block-greenslide h2 a { background: none; padding: 0; font-size: normal; }
+.block-greenslide a { color: #FFF; font-size: 40px; font-weight: normal;font-style: normal; background-color: #06406c; padding: 10px 15px; border-radius: 10px; text-decoration: none; }
+.block-greenslide a:hover { text-decoration: underline; }
+
+.block-cherryslide { background-color: #4c0d09; }
+.block-cherryslide { color: #d3b2af; }
+.block-cherryslide p { color: #d3b2af; }
+.block-cherryslide code { color: #000; background-color: white; }
+
+.block-pinkslide { background-color: #cc4037; }
+.block-pinkslide h2, .block-add p { color: #4c0d09; }
+
+.block-pinklowslide { background-color: #ffc19f; }
+.block-pinklowslide h2 { color: #cc4037; }
+
+.block-blackslide { background-color: #000; }
+.block-blackslide h2 { color: #FFF; }
+.block-blackslide p { color: #DDD; }
+.block-blackslide code { color: #000; background-color: white; }
+
