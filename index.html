@@ -121,6 +121,57 @@
               
             </ol>
     </div>
+    <div class="scrollblock block-pinkslide">
+            <h2>Comodines de git add</h2>
+            <ol>
+              
+                <li>
+                <p>
+                <code> <strong> git add -A / git add . </strong> </code>: Agrega todos</p>
+               
+                </li>
+                <li>
+                        <p>
+                    <code> <strong> git add --ignore-removal </strong> </code>: Agrega nuevos y modificados, sin los eliminados</p>
+                       
+                </li>
+                <li>
+                                <p>
+                    <code> <strong> git add -u </strong> </code>: Agrega modificados y eliminados, sin los nuevos</p>
+                               
+                </li>
+                <li>
+                        <p>Si ahora queremos agregar todos estos cambios a la historia podemos hacer uso de diferentes cosas.<br>
+                        <code> <strong> git add -u </strong> </code></p>
+                        <p>O por el contrario, agregar tanto los cambios como los nuevos archivos<br>
+                            <code> <strong> git add . </strong> </code></p>
+                            <p>Ahora solo nos falta hacer commit de estos cambios
+                                <strong>git commit -m'Agregando multiples archivos y nueva linea en el primer archivo'</strong>
+                            </p>
+                       
+                        </li>
+              
+            </ol>
+    </div>
+    <div class="scrollblock block-pinklowslide5">
+            <h2>Add y Commit juntos</h2>
+            <ol>
+              
+                <li>
+                <p>Para hacer las cosas mas rápidas, puedes hacer un add y un commit en un solo comando.
+                <code> <strong> git commit -a -m 'Edición de primer archivo </strong> </code></p>
+                <p>La bandera <strong>-a </strong>  agrega los archivos modificados y eliminados, pero no los nuevos</p>
+               
+                <p>
+                        Para incluir todo los cambios, podrías ejecutar los dos comandos, pero en una misma linea.
+                        <br>
+                        <code>git add . && git commit -m 'Este commit si tiene todos los cambios'</code>
+                </p>
+                </li>
+               
+               
+            </ol>
+    </div>
 
 
 </body>
