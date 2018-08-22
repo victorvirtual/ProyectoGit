@@ -356,14 +356,103 @@
     <div class="scrollblock block-blueslide">
             <h2>Ramas</h2>
             <p>
-                    El siguiente paso es conectar los dos repositorios. Ello se consigue convirtiendo al repositorio en GitHub en un repositorio remoto del repositorio local. La página de inicio del repositorio en GitHub incluye la secuencia de caracteres que necesitamos para identificarlo:
+                Cuando comenzamos un nuevo trabajo en una rama
             </p>
-            <p>pra ver los remotos de tu local
+            <p>
                 <br>
-                <strong>git remote -v</strong>
+                <strong>$ git checkout -b myfeature develop</strong>
             </p>
             
     </div>
+    <div class="scrollblock block-greenslide">
+            <h2>Fetures terminados</h2>
+            <p>
+                Son los que fueron combinados dentro de la rama
+            </p>
+            <p>pra ver los remotos de tu local
+                <br>
+                <strong>$ git checkout develop
+                        Switched to branch 'develop'
+                        $ git merge --no-ff myfeature
+                        Updating ea1b82a..05e9557
+                        (Summary of changes)
+                        $ git branch -d myfeature
+                        Deleted branch myfeature (was 05e9557).
+                        $ git push origin develop</strong>
+            </p>
+            <ol>
+                <li>
+                   <strong>git checkout develop</strong> 
+                </li>
+                <li>
+                        <strong>$ git merge --no-ff myfeature</strong> 
+                     </li>
+                     <li>
+                            <strong>git branch -d myfeature</strong> 
+                         </li>
+                         <li>
+                                <strong>git push origin develop</strong> 
+                             </li>
+                
+            </ol>
+            
+    </div>
+    <div class="scrollblock block-pinklowslide">
+            <h2>GitFlow</h2>
+           <img src="imagenes/gitflow.png" alt="">
+            
+    </div>
+    <div class="scrollblock block-pinkslide">
+            <h2>Inicializando un gitflow</h2>
+           
+            <p> tu deberas responder a ciertas preguntas pero es mejor usar los que vienen por default
+                <br>
+                <strong><code>git flow init</code></strong>
+            </p>
+            <p> comenzando un nuevo feature 
+                    <br>
+                    <strong><code>git flow feature start MYFEATURE</code></strong>
+                </p>
+                <p> terminando un feature
+                        <br>
+                        <strong><code>git flow feature finish MYFEATURE</code></strong>
+                    </p>
+                    <p> publicando un feature
+                            <br>
+                            <strong><code>git flow feature publish MYFEATURE</code></strong>
+                        </p>
+                        <p> consiguiendo un  feature publicado
+                                <br>
+                                <strong><code>git flow feature pull origin MYFEATUREE</code></strong>
+                            </p>
+            
+    </div>
 
+    <div class="scrollblock block-blueslide">
+            <h2>Release</h2>
+            <p>
+                Comenzando un release
+            </p>
+            <p>
+                <br>
+                <strong>git flow release start RELEASE [BASE]</strong>
+            </p>
+            <p>
+                    publicando
+                </p>
+                <p>
+                    <br>
+                    <strong>git flow release publish RELEASE</strong>
+                </p>
+                <p>
+                        terminando
+                    </p>
+                    <p>
+                        <br>
+                        <strong>git flow release finish RELEASE</strong>
+                    </p>
+                
+            
+    </div>
 </body>
 </html>
