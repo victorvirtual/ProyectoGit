@@ -94,3 +94,11 @@ ul {
 .block-blackslide p { color: #DDD; }
 .block-blackslide code { color: #000; background-color: white; }
 
+.block-whiteslide { background-color: #ffffff; }
+.block-whiteslide h2 { color: #06406c; }
+.block-whiteslide p { color: #06406c; }
+.block-whiteslide code { background-color: #000; color: #FFF; }
+li.nostyle {
+    list-style-type: none;
+}
+ol li { list-style:none }
