@@ -5,8 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GIT- Resumen Módulo Control de Versiones</title>
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 <body>
+        <div class="scrollblock block-setup">
+                <h1>Empezando con GIT </h1>
+                
+                <p>
+                    <a href="http://msysgit.github.io/">Descargar git para Windows</a>
+                </p>
+                
+            </div>
     
+    <div class="scrollblock block-create">
+        <h2>Configuración del GIT</h2>
+        <ol>
+            <li>
+            <p>Configurar en Git cual será el nombre de la persona que hará uso de él<br>
+            <code>git config --global user.name "Victor Perez"</code></p>
+            <p><em>Si se quiere configurar solo para el repositorio actual no se debe usar la bandera <strong>--global</strong></em></p>
+            </li>
+            <li>
+            <p>Git hace uso del email del usuario cuando consolida la información, por esta razón necesitamos configurarlo<br>
+            <code>git config --global user.email "vperez@vaixs.net"</code></p>
+            <p><em>Si se quiere configurar solo para el repositorio actual no se debe usar la bandera <strong>--global</strong></em></p>
+            </li>
+            <li>
+            <p>Revisar la configuración<br>
+            <code>git config --list</code></p>
+            </li>
+            </ol>
+    </div>
 </body>
 </html>
